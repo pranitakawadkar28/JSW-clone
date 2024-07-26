@@ -1,0 +1,562 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+#main {
+  height: 100%;
+  width: 100%;
+}
+
+#navbar {
+  height: 10%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: pink;
+}
+
+#left {
+  padding-left: 50px;
+  width: 60%;
+  height: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#right {
+  width: 40%;
+  height: 100%;
+  background-color: #16469d;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 0 25px;
+}
+
+#link a {
+  text-decoration: none;
+  color: #16469d;
+  margin-right: 15px;
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 15px;
+  background-color: rgb(240, 240, 240);
+  padding: 25px 5px;
+}
+
+#right a {
+  text-decoration: none;
+  color: white;
+  margin-right: 15px;
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+#box1 {
+  width: 100%;
+  height: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#bl {
+  width: 50%;
+  height: 100%;
+  background-color: black;
+  position: relative;
+}
+
+#br {
+  width: 50%;
+  height: 100%;
+  background-image: url(./MG_Mobile-Banner.jpg);
+  background-position: top;
+  background-size: cover;
+}
+
+#bl h1 {
+  color: white;
+  margin-top: 150px;
+  font-family: Montserrat;
+  font-size: 50px;
+  position: absolute;
+  right: -10%;
+}
+
+#br h1 {
+  color: white;
+  font-family: Montserrat;
+  font-size: 30px;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 150px;
+}
+
+#box2 {
+  width: 100%;
+  height: 55%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#b2l {
+  width: 40%;
+  height: 100%;
+  padding: 60px 10px;
+}
+
+#b2r {
+  width: 40%;
+  height: 100%;
+}
+
+#b2l > h1 {
+  font-size: 50px;
+  font-weight: 500;
+  color: red;
+  font-family: Montserrat;
+  margin-bottom: 20px;
+}
+
+#b2l > p {
+  font-family: Montserrat;
+  font-size: 15px;
+  margin: bottom;
+  margin-bottom: 20px;
+}
+
+#b2l button {
+  background-color: #16469d;
+  padding: 15px 30px;
+  color: white;
+  border: none;
+}
+
+#b2r {
+  background-image: url(./hqdefault.jpg);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#box3 {
+  width: 100%;
+  height: 80%;
+  background-image: url(./bg-homeStory.jpg);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#mid {
+  width: 80%;
+  height: 80%;
+}
+
+#mid h1 {
+  font-family: Montserrat;
+  color: white;
+}
+
+.equal {
+  width: 32%;
+  height: 90%;
+  background-color: white;
+}
+
+#sep {
+  height: 90%;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#sept {
+  width: 100%;
+  height: 50%;
+  background-image: url(./thumb-hockey-350x210-resize-350x210-a22c0e761c-353c6640c70f292f.jpeg);
+  background-position: top;
+  background-size: top;
+}
+
+#sept p {
+  font-family: Montserrat;
+  padding-top: 65%;
+  margin-left: 5%;
+}
+
+#sep button {
+  color: white;
+  border: none;
+  background-color: #16469d;
+  font-family: Montserrat;
+  padding: 10px 20px;
+  margin: 15px;
+}
+
+#sepb {
+  width: 100%;
+  height: 50%;
+  background-image: url(./iima-thumb-resize-350x210-a7542dd51f-0d9c9cdce60ba9c1.jpeg);
+  background-position: top;
+  background-size: top;
+}
+
+#sepb p {
+  font-family: Montserrat;
+  padding-top: 65%;
+  padding-bottom: 35px;
+  margin-left: 5%;
+}
+
+#sepd {
+  width: 100%;
+  height: 50%;
+  background-image: url(./marg-lake-thumb-resize-350x210-a7542dd51f-f52b2d7372e31db3.jpeg);
+  background-position: top;
+  background-size: top;
+}
+
+#sepd p {
+  font-family: Montserrat;
+  padding-top: 65%;
+  padding-bottom: 15px;
+  margin-left: 5%;
+}
+
+#box4 {
+  width: 100%;
+  height: 70%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#mid2 {
+  width: 80%;
+  height: 80%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.equal2 {
+  width: 50%;
+  height: 80%;
+}
+
+#sep2 {
+  height: 90%;
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#b4r {
+  width: 30%;
+  height: 15%;
+  margin-top: 30px;
+}
+
+#b4rd p {
+  font-family: Montserrat;
+  font-size: 14px;
+  line-height: 23px;
+  font-weight: 400;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#b4rd h1 {
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 20px;
+  color: #16469d;
+}
+
+#b4rd h6 {
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+#box5 {
+  width: 100%;
+  height: 100%;
+  background-image: url(./bg-homeBusinessTab.jpg);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#boxcenter {
+  width: 80%;
+  height: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cl {
+  width: 35%;
+  height: 100%;
+}
+
+.cr {
+  width: 65%;
+  height: 100%;
+  margin-left: 40px;
+}
+
+.cr img {
+  margin-bottom: 30px;
+  margin-top: 170px;
+}
+
+.cl h1 {
+  font-family: Montserrat;
+  color: white;
+  font-size: 36px;
+  margin-bottom: 15px;
+}
+
+.cl p {
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 25px;
+  color: white;
+  padding-bottom: 30px;
+  padding-right: 30px;
+  border-bottom: 1px solid white;
+  margin-bottom: 20px;
+}
+
+.cr h1 {
+  font-family: Montserrat;
+  color: white;
+  margin-bottom: 30px;
+}
+
+.cr p {
+  font-family: Montserrat;
+  color: white;
+  margin-bottom: 30px;
+}
+
+.cr button {
+  padding: 10px 10px;
+}
+
+#box6 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#container {
+  width: 80%;
+  height: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contl {
+  width: 65%;
+  height: 90%;
+}
+
+.contmid {
+  width: 90%;
+  height: 20%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1.5px solid black;
+}
+
+.contr {
+  width: 35%;
+  height: 90%;
+}
+
+.contl h1 {
+  font-family: Montserrat;
+  color: red;
+  margin-bottom: 20px;
+}
+
+.contl h2 {
+  margin-bottom: 10px;
+  font-family: Montserrat;
+}
+
+.contl p {
+  margin-bottom: 20px;
+  font-family: Montserrat;
+}
+
+.line {
+  height: 1.5px;
+  width: 100%;
+  background-color: black;
+  margin-bottom: 10px;
+}
+
+#blue {
+  width: 80%;
+  height: 60%;
+  background-color: #16469d;
+  margin-top: 40px;
+  text-align: center;
+  color: white;
+  padding: 10px;
+  font-family: Montserrat;
+}
+
+#blue h2 {
+  font-size: 35px;
+}
+#blue h1 {
+  font-size: 50px;
+}
+
+#blue p {
+  font-size: 30px;
+  margin-bottom: 25px;
+}
+
+.contr>h1 {
+  margin-top: 10px;
+  font-size: 35px;
+  font-family: Montserrat;
+
+}
+
+.contr>p {
+  font-size: 25px;
+  font-family: Montserrat;
+
+}
+
+.size {
+}
+
+#blue h1 {
+}
+
+#box7 {
+  width: 100%;
+  height: 75%;
+  background-image: url(./bg-homeBusinessTab.jpg);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#box7main {
+  font-family: Montserrat;
+  color: white;
+}
+
+.xyz {
+  margin-bottom: 20px;
+}
+
+#box7main button {
+  background-color: #16469d;
+  padding: 20px 45px;
+  border: none;
+  font-size: 15px;
+  color: white;
+}
+#boxbutton1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#dd {
+  margin-left: 10px;
+}
+#box8 {
+  width: 100%;
+  height: 50%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#box8main {
+  width: 80%;
+  height: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ss {
+  width: 19%;
+  height: 100%;
+  font-family: Montserrat;
+  font-weight: 400;
+  padding: 10px;
+}
+
+.space {
+  margin-bottom: 20px;
+}
+.ss h3 {
+  font-size: 16px;
+  margin-bottom: 2px;
+}
+.ss p {
+  font-size: 12px;
+}
+
+#hee {
+  margin-left: 30px;
+}
+
+#img {
+  margin-left: 30px;
+}
+
+#box9 {
+  width: 100%;
+  height: 5%;
+  background-color: #464650;
+  font-family: Montserrat;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 10px;
+}
